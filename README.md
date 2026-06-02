@@ -24,6 +24,22 @@ pip install requests
 | `EASYSCHOLAR_PASSWORD` | 控制台 password Cookie（提交时必需） |
 | `EASYSCHOLAR_SESSION` | 控制台 JSESSIONID Cookie（提交时必需） |
 
+`EASYSCHOLAR_SECRET_KEY`
+来自于： https://www.easyscholar.cc/console/user/open
+
+`EASYSCHOLAR_UUID`
+在https://www.easyscholar.cc/console/rank/edit 从负载中获取（rankInfoUuid）。
+
+`EASYSCHOLAR_USERNAME`
+在https://www.easyscholar.cc/console/rank/edit 从Cookie中获取(userName)。
+
+`EASYSCHOLAR_PASSWORD`
+在https://www.easyscholar.cc/console/rank/edit 从Cookie中获取(password)。
+
+`EASYSCHOLAR_SESSION`
+在https://www.easyscholar.cc/console/rank/edit 从Cookie中获取(JSESSIONID)。
+
+
 设置示例：
 
 ```bash
@@ -48,6 +64,7 @@ export EASYSCHOLAR_USERNAME='控制台userName'
 export EASYSCHOLAR_PASSWORD='控制台password'
 export EASYSCHOLAR_SESSION='控制台JSESSIONID'
 ```
+
 
 ## 用法
 
