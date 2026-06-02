@@ -25,7 +25,7 @@ pip install requests
 | `EASYSCHOLAR_SESSION` | 控制台 JSESSIONID Cookie（提交时必需） |
 
 `EASYSCHOLAR_SECRET_KEY`
-来自于： https://www.easyscholar.cc/console/user/open
+在 https://www.easyscholar.cc/console/user/open 密钥SecretKey
 
 `EASYSCHOLAR_UUID`
 在https://www.easyscholar.cc/console/rank/edit 从负载中获取（rankInfoUuid）。
